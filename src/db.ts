@@ -3,10 +3,10 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const pool = new Pool({
-  user: process.env.DB_user,
+  user: process.env.DB_user || "postgres",
   host: process.env.DB_host,
   database: process.env.DB_database,
-  password: process.env.DB_password,
+  password: process.env.DB_password || "12345678",
   port: Number(process.env.DB_port),
 });
 

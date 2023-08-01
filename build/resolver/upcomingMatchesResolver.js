@@ -9,7 +9,7 @@ async function fetchUpcomingMatchesData() {
     try {
         const response = await axios_1.default.get('https://cricbuzz-cricket.p.rapidapi.com/matches/v1/upcoming', {
             headers: {
-                'X-RapidAPI-Key': '569fb7e383msh80c3b0da2d31424p154ea2jsn8e82cd449388',
+                'X-RapidAPI-Key': 'ff273d0016mshaecdc76688df7a2p1190f5jsnfd09f547feb5',
                 'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com',
             },
         });

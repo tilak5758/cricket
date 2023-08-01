@@ -15,7 +15,7 @@ const playersDataResolver_1 = __importDefault(require("./resolver/playersDataRes
 dotenv_1.default.config();
 async function init() {
     const app = (0, express_1.default)();
-    const PORT = Number(process.env.PORT) || 5000;
+    const PORT = 5001;
     app.use(express_1.default.json());
     // Enable CORS middleware
     app.use((0, cors_1.default)());
