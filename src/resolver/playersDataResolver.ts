@@ -8,7 +8,7 @@ async function fetchPlayersData(matchId: string, teamId: number) {
       {
         headers: {
           'X-RapidAPI-Key':
-            'eda7dcfeb4mshd896c7edbdad4fdp13e213jsn1127558118a2',
+            'ff273d0016mshaecdc76688df7a2p1190f5jsnfd09f547feb5',
           'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com',
         },
       }
